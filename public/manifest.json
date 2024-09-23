@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Buy Helper",
+  "description": "Sync your lists, buy a house",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
